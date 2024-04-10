@@ -1,3 +1,11 @@
+'''
+ARP Spoofing Window (arp_spoofing_main.py):
+    - The ARP spoofing window (arp_window) is created similarly to the other windows.
+    - It contains tk.Label widgets and tk.Entry widgets for input of the target IP address, gateway IP address, and output text area.
+    - The "Start ARP Spoofing" button triggers the spoof_arp function to start the ARP spoofing process.
+    - An "End Scan" button allows the user to stop the ARP spoofing process.
+'''
+
 import tkinter as tk
 import socket
 import sys
