@@ -1,3 +1,11 @@
+'''
+WiFi Scanning Window (wifi_scanning.py):
+    - The WiFi scanning window (wifi_window) is created similarly to the other windows.
+    - It contains a tk.Label widget and tk.Entry widget for input of the IP address range to scan.
+    - Buttons for starting and ending the scan (start_scan_button and end_scan_button) are provided.
+    - A tk.Text widget (output_text) is used to display the results of the scan.
+'''
+
 import tkinter as tk
 import re
 import socket
